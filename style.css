@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    width: 100%;
+    background-color: #FBFBFB;
+    font-family: sans-serif;
+}
+.instagram-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-mockup {
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.image-mockup .image {
+    width: 450px;
+}
+.login-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.login-user-container,
+.account {
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.login-container .login-user-container .brand-instagram {
+    width: 175px;
+    margin: 20px 0;
+}
+.login-user-container span {
+    font-size: 0.8rem;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+.login-user-container .line {
+    width: 100%;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 10px 0;
+}
+.login-user-container .login-user {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.login-user-container .login-user .user {
+    display: flex;
+    align-items: center;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.8);
+}
+.login-user-container .login-user .image-user {
+    width: 35px;
+    margin-right: 15px;
+    border-radius: 50%;
+
+}
+.login-user-container .login-user input[type=submit] {
+    padding: 10px;
+    background-color: #0089FF;
+    border: none;
+    border-radius: 5px;
+    color: #EEEEEE;
+    font-weight: 700;
+}
+.account {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.login-container .download-app {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.download-app .links-store {
+    display: flex;
+}
+.download-app .links-store .store {
+    width: 150px;
+}
+
