@@ -10,12 +10,17 @@ body {
     font-family: sans-serif;
     
 }
+.container {
+    display: flex;
+    margin: 32px auto 0;
+    padding-bottom: 32px;
+}
 .instagram-container {
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
-    height: 100vh;
+    height: auto;
 }
 
 .image-mockup {
